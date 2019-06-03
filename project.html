@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Learning TC</title>
+<meta charset="utf-8">
+<meta name="description" content="App project with HTML-CSS-PHP-MYSQL">
+<meta name="keyword" content="database, article of news economy law politic sport spiritual">
+<meta name="author" content="Me, Andrian, Erwin & Yustia">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+
+<!--bagian kanvas seluruh layar-->
+<div class="kanvas">
+
+
+<!--bagian logo dan tombol login-->
+<!--
+<div class="header">
+  <h2>E-Learning TC</h2>
+
+ <!--
+  <form id="formsearch" method="post" action="">
+    <input class="search" type="text" placeholder="Cari..." required>	
+    <input class="button" type="button" value="Cari">	
+  </form>
+ -->
+<!--
+</div>
+-->
+
+ 
+
+<!--preview artikel terbaru-->
+<!--
+<div class="section">
+ 
+   <img class="manualbtn" src="data/button/left.png" onclick="plusDivs(-1)"/>
+        <img src="data/image/slider-img1.jpg" class="sliderimage" />
+        <img src="data/image/slider-img2.jpg" class="sliderimage" />
+        <img src="data/image/slider-img3.jpg" class="sliderimage" />
+   <img class="manualbtn" src="data/button/right.png" onclick="plusDivs(1)"/>
+
+</div>
+-->
+
+<!--script auto slider-->
+<!--
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("sliderimage");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+-->
+
+
+<!--script manual slider-->
+<!--
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("sliderimage");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+-->
+
+
+<!--menu inline-->
+<div class="menu">
+
+  <div id="menubtn">
+    <a class="" href="data/ebook/ebook.html" target="framekonten"> <img class="imgfolder" src="data/button/ebook.png"/> </a>
+    <a href="data/ebook/ebook.html" target="framekonten">Ebook</a>
+  </div>
+
+ <div id="menubtn">
+    <a href="data/chat/index.html" target="framekonten"> <img class="imgfolder" src="data/button/chat.ico"/> </a>
+    <a href="data/chat/index.html" target="framekonten">Chat</a>
+  </div>
+
+ <div id="menubtn">
+    <a href="data/streaming/streaming.html" target="framekonten"> <img class="imgfolder" src="data/button/camera.ico"/> </a>
+    <a href="data/streaming/streaming.html" target="framekonten">Streaming</a>
+  </div>
+
+
+ <div id="menubtn">
+    <a href="data/doc/documentation.pdf" target="framekonten"> <img class="imgfolder" src="data/button/documentation.png"/> </a>
+    <a href="data/doc/documentation.pdf" target="framekonten">Documentation</a>
+  </div>
+
+ <div id="menubtn">
+    <a href="data/download/download.html" target="framekonten"> <img class="imgfolder" src="data/button/download.ico"/> </a>
+    <a href="data/download/download.html" target="framekonten">Download</a>
+  </div>
+  
+  
+</div>
+
+
+
+<!--bagian link artikel dan isi artikel di tampilkan-->
+<div class="article">
+
+    <iframe class="konten" name="framekonten" src="data/home/home.html"  scrolling=""
+    marginheight="" marginwidth="" sanbox></iframe>
+
+</div>
+
+
+
+<!--logo, copyright, item lain2-->
+<!--
+<div class="footer">
+    <h3>Copyright 2019</h3>
+</div>
+-->
+
+<!--bagian kanvas seluruh layar-->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,328 @@
+/*Each configuration grouped into several catagories:main class, form class, button class and hover class*/
+
+
+/*--------------------Main Class Configurations-----------------*/
+
+* {
+    box-sizing          : border-box;
+}
+
+body 
+    {margin:auto; padding:auto;}
+    
+.kanvas {
+    max-width           : 900px;
+    height              : auto;
+    margin              : auto; 
+    padding             : auto;
+    overflow            : ;
+    
+}
+
+.header {
+    background-color    : #ececec;
+    border-top          : ;
+    box-shadow          : 7px 7px 5px grey;
+    height              : 50px;
+    width               : 900px;
+    display             : flex;
+    align-items         : center ;
+    justify-content     :  ;
+    margin-top          : ;
+    justify-content     : right;
+    overflow            : ;
+}
+
+.header h2 {
+    align-items         : ;
+    justify-content     : ;
+    margin-bottom       : ;
+    display             : ;
+    float               : ;
+    margin-right        : auto;
+}
+
+.menu {
+    background-color    : ;
+    border              : 2px solid orange;
+    border-radius       : 30px;
+    box-shadow          : ;
+    height              : 50px;
+    width               : 900px;
+    display             : flex;
+    float               : left;
+    align-items         : center ;
+    justify-content     : center;
+    margin-top          : 15px;
+    overflow            : ;
+}
+
+.menu a  {
+    margin              : auto;
+}
+
+.menu a:link  {
+    color               : black;
+}
+
+.section {
+    background-color    : #ececec;
+    border-top          : ;
+    box-shadow          : 7px 7px 5px grey;
+    height              : 200px;
+    width               : 900px;
+    postion             : relative;
+    margin-top          : 15px;
+    display             : flex;
+    float               : ;
+    overflow            : ;
+}
+
+.article {
+    background-color    : #ececec;
+    border              : ;
+    box-shadow          : ;
+    height              : ;
+    width               : ;
+    display             : flex;
+    float               : left;
+    box-shadow          : 7px 7px 5px grey;
+    margin-top          : 15px;
+    overflow            : ;
+
+}
+
+.konten {
+    height              : 600px;
+    width               : 900px;
+    display             : ;
+    float               : ;
+    margin-top          : 15px;
+    margin-bottom       : 15px;
+    border              : none;
+    overflow            : ;
+}
+
+.footer {
+    border              : ;
+    box-shadow          : ;
+    height              : 50px;
+    width               : ;
+    display             : ;
+    float               : ;
+    margin              : ; 
+    padding             : ;
+    clear               : both;
+    margin-top          : 15px;
+    text-align          : center;
+    overflow            : ;
+}
+
+
+div img {
+    width               : 30px;
+    height              : 30px;
+    margin-left         : ;
+    float               : ;
+}
+
+.imgfolder {
+    width               : 40px;
+    height              : 35px;
+    display             : block;
+    margin              : auto;
+}
+
+.displayblock {
+    max-width           : ;
+    height              : ;
+    display             : block;
+    margin              : auto;
+}
+
+a:link{
+    color               : Black;
+}
+
+a:visited{
+    color               : Black;
+}
+
+a:hover{
+    color               : black;
+}
+
+a:active{
+    color               : green;
+}
+
+
+.search {
+    padding             :;
+    background          :rgba(50, 50, 50, 0.2);
+    border              :0px solid #dbdbdb;
+    
+}
+
+.sliderimage {
+    display         : none;
+    float           : left;
+    margin          : auto;
+    padding         : px;
+    width           : 600px;
+    height          : 140px;
+    overflow        : ;
+}
+
+
+
+
+/*--------------------Hover Configurations-----------------*/
+
+#menubtn:hover {
+    border-bottom   :3px solid blue;
+    border-top      :;
+    position:;
+    padding:;
+    left:;
+    border:;
+    background-color:;
+    color:;
+    margin-top: 3px;
+    display          : ;
+    float            : ;
+}
+
+#uploadphoto:hover  {
+    border:3px solid lime;
+    color:#207cca;
+}
+
+#editprofile:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+    border:2px solid lime;
+    margin-left:6px;
+    margin-right:;
+}
+
+#deleteprofile:hover  {
+    border:3px solid orange;
+    color:#207cca;
+    margin-left:4px;
+}
+
+.menu a:hover  {
+    color               : #207cca;
+}
+
+.loginbtn:hover {
+    background-color    : red;
+}
+
+.faqbtn:hover {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.manualbtn:hover {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+#logoutbtn:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+    border:2px solid lime;
+    margin-left:16px;
+}
+
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+
+/*--------------------Form Configurations-----------------*/
+
+#formKomentar{
+    border              : 5px solid #d1d1d1;
+    max-width           : 900px;
+    padding             : 10px;
+    margin              : auto; 
+    padding             : auto;
+    display             : ;
+    float               : ;
+}
+
+
+
+/*--------------------Button Configurations-----------------*/
+
+#menubtn {
+    position            :relative;
+    padding             :;
+    left                :;
+    border              :;
+    background-colo     r:;
+    color               :;
+    margin-right        : 30px;
+    display             : block;
+    float               : ;
+    text-align          : center;
+}
+
+#menubtn a {
+    font-size           : 12px;
+    text-decoration     : none;
+  
+}
+
+
+.faqbtn {
+    display             : ;
+    align-items         : ;
+    justify-content     : ;
+    border              : 2px solid gray;
+    border-radius       : 5px;
+    background-color    : gray;
+    color               : ;
+    text-decoration     : none;
+    float               : ;
+}
+
+.manualbtn {
+    display             : ;
+    align-items         : ;
+    justify-content     : ;
+    border              : 2px solid green;
+    border-radius       : 5px;
+    background-color    : green;
+    color               : ;
+    text-decoration     : none;
+    margin              : auto;
+}
+
+#logoutbtn {
+    position:;
+    padding:;
+    margin-left:;
+    border:5px solid orange;
+    background-color:orange;
+    color:orange;
+    display : ;
+    float   : ;
+    margin-left:10px;
+    
+}
+
+.button {
+    position:relative;
+    padding:;
+    left:;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+    
+}
+
